@@ -1,0 +1,22 @@
+domain: your-project
+domain_slug: your-project
+description: >
+  One paragraph describing what this system does and who it serves.
+
+team:
+  structure: flat
+  ownership: describe ownership model
+
+platform:
+  cloud: AWS | GCP | Azure
+  compute: ECS | GKE | AKS | Lambda
+  databases: []
+  ci_cd: GitHub Actions | Buildkite | Jenkins
+  monitoring: Datadog | Grafana | CloudWatch
+
+architecture:
+  style: microservices | monolith | modular-monolith
+  language: primary language(s)
+
+coverage:
+  domains: []

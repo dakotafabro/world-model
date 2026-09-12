@@ -1,0 +1,20 @@
+{
+  "name": "world-model",
+  "version": "0.1.0",
+  "type": "extension",
+  "description": "Structured knowledge corpus for any codebase. Five-layer architecture (state, causal, intent, prediction, ops) with MCP tools for querying, health monitoring, and bootstrapping. Includes templates for building your own world model.",
+  "entry": "SKILL.md",
+  "scope": "project",
+  "token_cost": 1200,
+  "keywords": ["world-model", "knowledge", "architecture", "system-context", "routing", "five-layer", "mcp"],
+  "author": {
+    "name": "Dakota Fabro",
+    "github": "dakotafabro"
+  },
+  "license": "Apache-2.0",
+  "repository": "https://github.com/dakotafabro/world-model",
+  "agents": ["goose", "claude-code", "codex", "cursor"],
+  "dependencies": [],
+  "conflicts": [],
+  "peers": ["translator", "world-model-learner"]
+}
